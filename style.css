@@ -1,0 +1,87 @@
+p{
+	color:blue;
+}
+#important{
+	font-size:36px;
+}
+.info{
+	background-color: green;
+	border:1px solid black;
+
+}
+.upper-text {
+    color: blue;
+    font-size: 25px;
+}
+
+/* == CSS RESET == */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+ 
+    
+
+}
+
+ul > li > a {
+    color: white;
+    
+}
+
+.wrapper {
+    height: 60px;
+    width: 1000px;
+    background-color:lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 1000;
+
+}
+
+a {
+    margin: 10px;
+    color: black;
+    padding: 40px;
+
+}
+
+.container {
+    display: flex;
+    padding-top: 13px;
+    justify-content: center;
+}
+/* #content { */
+    display: flex;
+    padding-top: 13px;
+    align-items: center;
+}
